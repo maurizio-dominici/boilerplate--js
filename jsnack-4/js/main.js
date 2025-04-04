@@ -1,21 +1,21 @@
 // ^jack-4
-const emptyArray = [];
+// const emptyArray = [];
 
-for (let i = 0; i < 6; i++) {
-  const answerUser = parseInt(prompt("inserisci un numero"));
-  if (answerUser % 2 === 1) {
-    emptyArray.push(answerUser);
-  }
-}
+// for (let i = 0; i < 6; i++) {
+//   const answerUser = parseInt(prompt("inserisci un numero"));
+//   if (answerUser % 2 === 1) {
+//     emptyArray.push(answerUser);
+//   }
+// }
 
 console.table(emptyArray);
 
 //^ jack 5
-const n = prompt("di quanti numeri vuoi il cubo");
+// const n = prompt("di quanti numeri vuoi il cubo");
 
-for (let i = 0; i < n; i++) {
-  console.log(i * i * i);
-}
+// for (let i = 0; i < n; i++) {
+//   console.log(i * i * i);
+// }
 
 // ^jack 7
 
